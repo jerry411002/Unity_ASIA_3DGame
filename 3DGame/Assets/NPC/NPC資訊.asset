@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: "NPC\u8CC7\u8A0A"
+  m_EditorClassIdentifier: Assembly-CSharp::NPCData
+  dialougA: "\u53EF\u4EE5\u5E6B\u6211\u62FF\u56DE\u6211\u7684\u5927\u528D\u528D\u55CE?\u4ED6\u5728\u96C5\u7279\u96C5\u91CC\u4E9E\u6230\u5F79\u4E2D,\u4E0D\u5E78\u88AB\u6575\u4EBA\u64CA\u788E,\u9EBB\u7169\u5E6B\u627E\u5230\u4ED6\u7684\u788E\u7247\uFF0C\u4EE5\u4FBF\u6211\u4FEE\u5FA9"
+  dialougB: "\u8F9B\u82E6\u4E86\uFF0C\u9084\u5DEE\u4E00\u4E9B\u518D\u9EBB\u7169\u59B3\u4E86"
+  dialougC: "\u771F\u7684\u975E\u5E38\u8D95\u5BEB\u4F60\u7684\u5E6B\u52A9\u771F\u7684\u975E\u5E38\u8D95\u5BEB\u4F60\u7684\u5E6B\u52A9"
+  count: 10
+  countCurrent: 0
