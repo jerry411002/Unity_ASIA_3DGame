@@ -4886,7 +4886,7 @@ GameObject:
   - component: {fileID: 534831938}
   - component: {fileID: 534831939}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: "\u611F\u61C9\u5340"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5558,6 +5558,7 @@ MonoBehaviour:
   textName: {fileID: 1511683785}
   interval: 0
   playerInarea: 0
+  state: 0
 --- !u!136 &1400553934
 CapsuleCollider:
   m_ObjectHideFlags: 0

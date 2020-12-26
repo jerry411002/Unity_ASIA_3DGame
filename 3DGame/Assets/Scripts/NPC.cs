@@ -22,7 +22,7 @@ public class NPC : MonoBehaviour
 
     public bool playerInarea;
 
-    //定義列舉enum(下拉式選，只能選一個)
+    //定義列舉enum(下拉式選單，只能選一個)
     public enum NPCState
     {
         FirstDialog,Missioning,Finish
@@ -54,8 +54,8 @@ public class NPC : MonoBehaviour
             playerInarea = true;
            StartCoroutine(dialoug());
         }
-
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.name == "阿明")
@@ -75,10 +75,9 @@ public class NPC : MonoBehaviour
     /// <summary>
     /// 開始對話
     /// </summary>
- 
     private IEnumerator dialoug()
     {
-
+          /**
         //print(Data.dialougA);
         //rint(Data.dialougA[3]);   //娶得字串部份資料:語法[編號]
 
@@ -89,7 +88,7 @@ public class NPC : MonoBehaviour
         //    print("我是迴圈：" + i);
 
         //}
-
+       **/
         //顯示對話框
         dialog.SetActive(true);
         //清空 文字
@@ -97,12 +96,12 @@ public class NPC : MonoBehaviour
         textName.text = name;
         //要說的對話
         string dialogString = Data.dialougB;
-       
+    
         switch (state)
         {
             case NPCState.FirstDialog:
                dialogString = Data.dialougA;
-                break;
+                break;  //break：處理完就出去
             case NPCState.Missioning:
           dialogString = Data.dialougB;
                 break;
